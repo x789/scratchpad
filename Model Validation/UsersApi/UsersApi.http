@@ -1,0 +1,12 @@
+@UsersApi_HostAddress = http://localhost:5202
+
+POST {{UsersApi_HostAddress}}/v2/Users/
+Content-Type: application/json
+Accept: application/json
+
+{
+    "userName": "john.doe@example.com",
+    "passw2ord": "securepassword123",
+    "state": "Migrated"
+}
+###
